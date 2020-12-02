@@ -1,9 +1,9 @@
 FROM node:12-alpine
 
 LABEL version="1.0.1"
-LABEL repository="http://github.com/netlify/actions"
-LABEL homepage="http://github.com/netlify/actions/netlify"
-LABEL maintainer="Netlify"
+LABEL repository="https://github.com/IllumiDesk/netlify-actions"
+LABEL homepage="https://github.com/IllumiDesk/netlify-actions/netlify"
+LABEL maintainer="IllumiDesk"
 LABEL "com.github.actions.name"="Netlify"
 LABEL "com.github.actions.description"="Wraps the Netlify CLI to enable common Netlify commands"
 LABEL "com.github.actions.icon"="cloud"

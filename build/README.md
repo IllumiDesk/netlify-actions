@@ -11,6 +11,7 @@ Trigger a build on Netlify, if there's no site for this repo it can automagicall
 - `NETLIFY_BASE` - *Optional* Directory to change to before starting build
 - `NETLIFY_CMD` - *Optional* Build command to build site
 - `NETLIFY_DIR` - *Optional* The directory to publish (relative to root of your repo)
+- `DRAFT` - *Optional* Specifices whether to publish the build
 
 ## Example
 

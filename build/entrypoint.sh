@@ -9,7 +9,8 @@ else
     --arg base "$NETLIFY_BASE" \
     --arg dir "$NETLIFY_DIR" \
     --arg site_id "$NETLIFY_SITE_ID" \
-    '. + {cmd: $cmd, base: $base, dir: $dir, site_id: $site_id}' \
+    --arg draft $DRAFT \
+    '. + {cmd: $cmd, base: $base, dir: $dir, site_id: $site_id, draft: $draft}' \
      "$GITHUB_EVENT_PATH" > args.json
 
   code=$(curl \

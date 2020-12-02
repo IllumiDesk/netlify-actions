@@ -1,9 +1,9 @@
 FROM alpine:latest
 
-LABEL version="1.0.0"
-LABEL repository="http://github.com/netlify/actions"
-LABEL homepage="http://github.com/netlify/actions/netlify"
-LABEL maintainer="Netlify"
+LABEL version="1.0.1"
+LABEL repository="https://github.com/IllumiDesk/netlify-actions"
+LABEL homepage="https://github.com/IllumiDesk/netlify-actions/netlify"
+LABEL maintainer="IllumiDesk"
 LABEL "com.github.actions.name"="Netlify Build"
 LABEL "com.github.actions.description"="Deploy a site to Netlify"
 LABEL "com.github.actions.icon"="cloud"

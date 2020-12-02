@@ -1,9 +1,9 @@
 FROM alpine:latest
 
 LABEL version="1.0.0"
-LABEL repository="http://github.com/netlify/actions"
-LABEL homepage="http://github.com/netlify/actions/diff-includes"
-LABEL maintainer="Netlify"
+LABEL repository="https://github.com/IllumiDesk/netlify-actions"
+LABEL homepage="https://github.com/IllumiDesk/netlify-actions/diff-includes"
+LABEL maintainer="IllumiDesk"
 LABEL "com.github.actions.name"="Diff includes"
 LABEL "com.github.actions.description"="Stop workflow unless changes were made in certain files/directories."
 LABEL "com.github.actions.icon"="git-commit"
